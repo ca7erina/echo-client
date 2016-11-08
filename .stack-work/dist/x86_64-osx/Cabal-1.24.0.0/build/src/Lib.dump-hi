@@ -1,0 +1,1274 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-08 16:10:54.758984 UTC
+
+interface echo-client-0.1.0.0-Be1Rh5C24NLJzDuDK7I273:Lib [family instance module] 8001
+  interface hash: 439d1d39b56a120a6e851ba85c29d83f
+  ABI hash: 2e544ab181bd1e63024b3d270677d29d
+  export-list hash: 6a086c221f458163f28635a18d41a893
+  orphan hash: 58072f38b4e858a01aaf57568eac04a2
+  flag hash: 0a3d7e421a998f61dc52f1b64ce7d7a3
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.startApp
+module dependencies:
+package dependencies: aeson-0.11.2.1@aeson-0.11.2.1-ByXhYhAOjwT2lX0EEzDlEU
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-2AyzLuPV4T95RcYDl03Ghe
+                      base-4.9.0.0
+                      base-compat-0.9.1@base-compat-0.9.1-tmPpmtbHbvIDjFWbkjGrR
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-In9M41tLtcS9QYt3QpGpNY
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG
+                      blaze-html-0.8.1.2@blaze-html-0.8.1.2-EQcMcRytfAYLVlu6sIj0XG
+                      blaze-markup-0.7.1.0@blaze-markup-0.7.1.0-CgEg2S1gRb62uLfN2SPOVT
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.7@case-insensitive-1.2.0.7-FDS9muZSKvyFFsDxjwuYX9
+                      containers-0.5.7.1@containers-0.5.7.1
+                      cookie-0.4.2.1@cookie-0.4.2.1-5P6dolSQSje7mJQ7M5DM5i
+                      cryptonite-0.19@cryptonite-0.19-G9PYO4oOEqhDTta2u9rAaU
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-FYQpjIylblBDctdkHAFeXA
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.2.6.2@directory-1.2.6.2
+                      dlist-0.8.0.2@dlist-0.8.0.2-GWAMmbX9rLg3tqrbOizHGv
+                      exceptions-0.8.3@exceptions-0.8.3-7py7fmRxowDFpHmiHGKrTb
+                      file-embed-0.0.10@file-embed-0.0.10-IXfudWSq57y1Athysk5ifZ
+                      filepath-1.4.1.0@filepath-1.4.1.0
+                      ghc-boot-th-8.0.1@ghc-boot-th-8.0.1 ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2
+                      http-api-data-0.3.2@http-api-data-0.3.2-Jw9b2ny6KnE8QzmhwitfGM
+                      http-client-0.4.31.1@http-client-0.4.31.1-Fe5iKpnRPJMLcefrCeHUNa
+                      http-date-0.0.6.1@http-date-0.0.6.1-GxuKyJS3TPnDu1ymqrm6RW
+                      http-media-0.6.4@http-media-0.6.4-Eg9CE4iTY9M8ET9NaQFStH
+                      http-types-0.9.1@http-types-0.9.1-BTSIP6lzG5DE6u136Payws
+                      integer-gmp-1.0.0.1 memory-0.13@memory-0.13-ABHR5331zHK9scHPRr7afU
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-AnUYMmJkgUZLmjf93DTg5F
+                      mmorph-1.0.6@mmorph-1.0.6-3xsw6wg6Vs2JmwrJVsaYA0
+                      mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+                      network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-6PuDgH21OiwGLI4QZ1g9kt
+                      parsec-3.1.11@parsec-3.1.11-37j7M1YEHqtEooY7BpJdri
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      random-1.1@random-1.1-54KmMHXjttlERYcr1mvsAe
+                      safe-0.3.9@safe-0.3.9-Hqo3JhJes6h6KTrVZw55Pb
+                      scientific-0.3.4.9@scientific-0.3.4.9-ENrtAw13zTS8y4klTK3l4D
+                      servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY
+                      servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ
+                      servant-server-0.9.1.1@servant-server-0.9.1.1-HdW5ex2QZoQJW8l9iK6jjA
+                      stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF
+                      streaming-commons-0.1.16@streaming-commons-0.1.16-9gshKwwIwmXLNJX0ewGSsw
+                      string-conversions-0.4@string-conversions-0.4-2GQMrIKhBZAnCkSf0UD4s
+                      tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx
+                      template-haskell-2.11.0.0
+                      text-1.2.2.1@text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-1j5dGjxxtiTDuAsO86iSk0
+                      transformers-0.5.2.0@transformers-0.5.2.0 unix-2.7.2.0@unix-2.7.2.0
+                      unix-compat-0.4.2.0@unix-compat-0.4.2.0-GNHotEMWE5dJ4oYFhgibIV
+                      unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-9LORRyFpDhM8ZtazbO2Bhp
+                      uri-bytestring-0.2.2.0@uri-bytestring-0.2.2.0-3BTtfyt0WYZ5vfBCOqFjFE
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4
+                      uuid-types-1.0.3@uuid-types-1.0.3-GqEQc4tvP0z5VPPkSZJlrZ
+                      vault-0.3.0.6@vault-0.3.0.6-5bJ8O372CGi2589QkJEjhz
+                      vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3
+                      wai-3.2.1.1@wai-3.2.1.1-CeM04LUPgYiCadXD3Mx7Tl
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-Io5DfTqtoU1Dqx2dcJqIC0
+                      word8-0.1.2@word8-0.1.2-2E1SgvvAV2fK8vZPDHbRan
+                      zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV
+orphans: aeson-0.11.2.1@aeson-0.11.2.1-ByXhYhAOjwT2lX0EEzDlEU:Data.Aeson.Types.Generic
+         aeson-0.11.2.1@aeson-0.11.2.1-ByXhYhAOjwT2lX0EEzDlEU:Data.Aeson.Types.Instances
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-2AyzLuPV4T95RcYDl03Ghe:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-2AyzLuPV4T95RcYDl03Ghe:Data.Attoparsec.Text.Internal
+         base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2:Data.Hashable.Generic
+         http-client-0.4.31.1@http-client-0.4.31.1-Fe5iKpnRPJMLcefrCeHUNa:Network.HTTP.Client.Request
+         network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs:Data.Text
+         text-1.2.2.1@text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-2AyzLuPV4T95RcYDl03Ghe:Data.Attoparsec.Internal.Types
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Compose
+                         base-4.9.0.0:Data.Functor.Const base-4.9.0.0:Data.Functor.Identity
+                         base-4.9.0.0:Data.Functor.Product base-4.9.0.0:Data.List.NonEmpty
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Semigroup
+                         base-4.9.0.0:Data.Type.Equality base-4.9.0.0:Data.Version
+                         base-4.9.0.0:Data.Void base-4.9.0.0:GHC.Exts
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-GWAMmbX9rLg3tqrbOizHGv:Data.DList
+                         ghc-boot-th-8.0.1@ghc-boot-th-8.0.1:GHC.LanguageExtensions.Type
+                         http-api-data-0.3.2@http-api-data-0.3.2-Jw9b2ny6KnE8QzmhwitfGM:Web.Internal.FormUrlEncoded
+                         http-client-0.4.31.1@http-client-0.4.31.1-Fe5iKpnRPJMLcefrCeHUNa:Network.HTTP.Client
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-6PuDgH21OiwGLI4QZ1g9kt:Network.URI
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.ContentTypes
+                         servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.IsSecure
+                         servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.Verbs
+                         servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.Utils.Links
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ:Servant.Client
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ:Servant.Common.BaseUrl
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ:Servant.Common.Req
+                         servant-server-0.9.1.1@servant-server-0.9.1.1-HdW5ex2QZoQJW8l9iK6jjA:Servant.Server.Internal
+                         servant-server-0.9.1.1@servant-server-0.9.1.1-HdW5ex2QZoQJW8l9iK6jjA:Servant.Server.Internal.BasicAuth
+                         tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx:Data.Tagged
+                         template-haskell-2.11.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-9LORRyFpDhM8ZtazbO2Bhp:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-9LORRyFpDhM8ZtazbO2Bhp:Data.HashSet
+                         uri-bytestring-0.2.2.0@uri-bytestring-0.2.2.0-3BTtfyt0WYZ5vfBCOqFjFE:URI.ByteString.Types
+                         uuid-types-1.0.3@uuid-types-1.0.3-GqEQc4tvP0z5VPPkSZJlrZ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-GqEQc4tvP0z5VPPkSZJlrZ:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV:Codec.Compression.Zlib.Stream
+import  -/  aeson-0.11.2.1@aeson-0.11.2.1-ByXhYhAOjwT2lX0EEzDlEU:Data.Aeson 281d2ab7daf86146b3b59970e2966e2e
+import  -/  aeson-0.11.2.1@aeson-0.11.2.1-ByXhYhAOjwT2lX0EEzDlEU:Data.Aeson.Types.Class 1dfffa4ea8ab7684e11894650e17978a
+import  -/  base-4.9.0.0:Data.Either bd9f099b82d4ed2d98c56d7144ac6957
+import  -/  base-4.9.0.0:Data.Proxy aa86c72628cf3b1ceb0816ca84687d80
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.Generics 8e2a7658e8b966c1d29d0d5fd4129f38
+import  -/  base-4.9.0.0:GHC.Show 952347a6ab730bcb25c0854d8bc6ca51
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  base-4.9.0.0:System.IO ad985d7a3fc986e9b9c610fb344d9106
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
+import  -/  http-client-0.4.31.1@http-client-0.4.31.1-Fe5iKpnRPJMLcefrCeHUNa:Network.HTTP.Client ecef45fc15a1bdeea75796b66cc6d005
+import  -/  http-client-0.4.31.1@http-client-0.4.31.1-Fe5iKpnRPJMLcefrCeHUNa:Network.HTTP.Client.Manager ac2af6d72c4af4a0d3b9380aec076b62
+import  -/  servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.ContentTypes 3abbbdba0ab6a40bed64450bcb3aab5d
+import  -/  servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.QueryParam 3655064d2c3720aa518a710d02ed33ff
+import  -/  servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.Sub f8c73e32b488d8b94cb110211a6fe106
+import  -/  servant-0.9.1.1@servant-0.9.1.1-AlJJEDznlLfEuIsJiOP1sY:Servant.API.Verbs e4ca765dff5751054585d81b8ca93fb6
+import  -/  servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ:Servant.Client 58643b8680fcdcaccf954b23282687eb
+import  -/  servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ:Servant.Common.BaseUrl 371b3d39da02c5a5ece66be721f3157b
+import  -/  servant-client-0.9.1.1@servant-client-0.9.1.1-2gjKQlxr7whBujEqFinECZ:Servant.Common.Req b3247e7c4a20f462c7bd96d4ff6c4654
+import  -/  servant-server-0.9.1.1@servant-server-0.9.1.1-HdW5ex2QZoQJW8l9iK6jjA:Servant 6e5962801bd5cda626985b2b4872c39e
+a1f8ebb22762845657a2d6df27a1bc09
+  $fFromJSONHelloMessage ::
+    Data.Aeson.Types.Class.FromJSON Lib.HelloMessage
+  DFunId
+  {- Arity: 1, Strictness: <L,U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Lib.$fFromJSONHelloMessage_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.N:FromJSON[0]
+                          <Lib.HelloMessage>_N)) -}
+68ad1e418e9924b0938b26670813339e
+  $fFromJSONHelloMessage1 ::
+    Data.Aeson.Types.Internal.Options
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Generic.Tagged
+         Data.Aeson.Types.Generic.True
+         (Data.Aeson.Types.Internal.Parser
+            (GHC.Generics.M1
+               GHC.Generics.S
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "msg")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 GHC.Base.String)
+               a))
+  {- Arity: 2, Strictness: <L,U(U,U,U,U,U,U)><L,1*U>,
+     Unfolding: (\ @ a
+                   (opts :: Data.Aeson.Types.Internal.Options)
+                   (mlab :: GHC.Base.Maybe Data.Text.Internal.Text) ->
+                 let {
+                   g :: Data.Aeson.Types.Internal.Object
+                        -> Data.Aeson.Types.Internal.Parser
+                             (GHC.Generics.M1
+                                GHC.Generics.S
+                                ('GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "msg")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy)
+                                (GHC.Generics.Rec0 GHC.Base.String)
+                                a)
+                   = Data.Aeson.Types.Generic.$fFromRecordM10_$cparseRecord
+                       @ ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "msg")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                       @ (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                       Lib.$fFromJSONHelloMessage_$s$fSelectorMetaMetaSel
+                       Lib.$fFromJSONHelloMessage2
+                         `cast`
+                       (Sym (Data.Aeson.Types.Class.N:GFromJSON[0]
+                                 <GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char]>_N))
+                       @ a
+                       opts
+                       mlab
+                 } in
+                 (\ (x :: Data.Aeson.Types.Internal.Value) ->
+                  Data.Aeson.Types.Instances.withObject
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "msg")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.Rec0 GHC.Base.String)
+                         a)
+                    Data.Aeson.Types.Generic.$fConsFromJSON'fTrue1
+                    g
+                    x)
+                   `cast`
+                 (<Data.Aeson.Types.Internal.Value>_R
+                  ->_R Sym (Data.Aeson.Types.Generic.N:Tagged[0]
+                                <Data.Aeson.Types.Generic.True>_P
+                                <Data.Aeson.Types.Internal.Parser
+                                   (GHC.Generics.M1
+                                      GHC.Generics.S
+                                      ('GHC.Generics.MetaSel
+                                         ('GHC.Base.Just "msg")
+                                         'GHC.Generics.NoSourceUnpackedness
+                                         'GHC.Generics.NoSourceStrictness
+                                         'GHC.Generics.DecidedLazy)
+                                      (GHC.Generics.Rec0 GHC.Base.String)
+                                      a)>_R))) -}
+7f2560d20f37a5254fa05711f79bdd8e
+  $fFromJSONHelloMessage2 ::
+    Data.Aeson.Types.Internal.Options
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1)
+  {- Arity: 2, Strictness: <L,A><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ @ a1
+                   (w :: Data.Aeson.Types.Internal.Options)
+                   (w1 :: Data.Aeson.Types.Internal.Value) ->
+                 Lib.$w$dGFromJSON @ a1 w1) -}
+6e29cff9fdc9a48c7eb4054af4b98528
+  $fFromJSONHelloMessage3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "String"#) -}
+0c390f4311a1574956361f9fbb7d8470
+  $fFromJSONHelloMessage4 ::
+    GHC.Generics.SingI ('GHC.Base.Just "msg")
+  {- Unfolding: InlineRule (0, True, True)
+                Lib.$fFromJSONHelloMessage5
+                  `cast`
+                (Trans
+                     (Sym (GHC.Generics.D:R:SingMaybeb0[0] <GHC.Types.Symbol>_N))
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
+                                                       GHC.Types.Symbol>_N) <'GHC.Base.Just
+                                                                               "msg">_N) -}
+ad355fc64db07032c0fc13e13dc42c72
+  $fFromJSONHelloMessage5 ::
+    GHC.Generics.R:SingMaybeb GHC.Types.Symbol ('GHC.Base.Just "msg")
+  {- Unfolding: (GHC.Generics.SJust
+                   @ GHC.Types.Symbol
+                   @ ('GHC.Base.Just "msg")
+                   @ "msg"
+                   @~ <'GHC.Base.Just "msg">_N
+                   Lib.$fFromJSONHelloMessage6
+                     `cast`
+                   (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"msg">_N)) -}
+eef7dc1fb288205f0b91c716c63b0738
+  $fFromJSONHelloMessage6 :: GHC.Generics.R:SingSymbols "msg"
+  {- Strictness: m,
+     Unfolding: (GHC.Generics.SSym
+                   @ "msg"
+                   Lib.$fFromJSONHelloMessage7
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"msg">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"msg">_N))) -}
+b4b4cd339045ef94dd8f2bc57953fe59
+  $fFromJSONHelloMessage7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "msg"#) -}
+4b6b6098a1c2fd6f24fbebe2483ab622
+  $fFromJSONHelloMessage8 ::
+    GHC.Generics.M1
+      GHC.Generics.S
+      ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "msg")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy)
+      (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+      a
+    -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a
+                   (eta :: GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "msg")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                             a) ->
+                 GHC.Types.True) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fFromJSONHelloMessage_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Lib.HelloMessage
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (x :: Data.Aeson.Types.Internal.Value) ->
+                 let {
+                   m :: Data.Aeson.Types.Internal.Parser
+                          (GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "msg")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.Rec0 GHC.Base.String)
+                             GHC.Prim.Any)
+                   = Data.Aeson.Types.Generic.$fConsFromJSONf_$cconsParseJSON
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "msg")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.Rec0 GHC.Base.String))
+                       @ Data.Aeson.Types.Generic.True
+                       Lib.$fFromJSONHelloMessage8
+                         `cast`
+                       (Sym (Data.Aeson.Types.Generic.N:IsRecord[0]
+                                 <GHC.Generics.M1
+                                    GHC.Generics.S
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "msg")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)>_N
+                                 <Data.Aeson.Types.Generic.True>_N))
+                       Lib.$fFromJSONHelloMessage1
+                         `cast`
+                       (Sym (Data.Aeson.Types.Generic.N:ConsFromJSON'[0]
+                                 <GHC.Generics.M1
+                                    GHC.Generics.S
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "msg")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.Base.String)>_N
+                                 <Data.Aeson.Types.Generic.True>_N))
+                       @ GHC.Prim.Any
+                       Data.Aeson.Types.Internal.defaultOptions
+                       x
+                 } in
+                 (\ @ (f1 :: * -> *)
+                    @ r
+                    (path :: Data.Aeson.Types.Internal.JSONPath)
+                    (kf :: Data.Aeson.Types.Internal.Failure f1 r)
+                    (ks :: Data.Aeson.Types.Internal.Success Lib.HelloMessage f1 r) ->
+                  m `cast`
+                  (Data.Aeson.Types.Internal.N:Parser[0]
+                       <GHC.Generics.M1
+                          GHC.Generics.S
+                          ('GHC.Generics.MetaSel
+                             ('GHC.Base.Just "msg")
+                             'GHC.Generics.NoSourceUnpackedness
+                             'GHC.Generics.NoSourceStrictness
+                             'GHC.Generics.DecidedLazy)
+                          (GHC.Generics.Rec0 GHC.Base.String)
+                          GHC.Prim.Any>_R)
+                    @ f1
+                    @ r
+                    path
+                    kf
+                    (\ (a2 :: GHC.Generics.M1
+                                GHC.Generics.S
+                                ('GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "msg")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy)
+                                (GHC.Generics.Rec0 GHC.Base.String)
+                                GHC.Prim.Any) ->
+                     ks
+                       a2
+                         `cast`
+                       (Trans
+                            (GHC.Generics.N:M1[0]
+                                 <GHC.Generics.S>_P
+                                 <'GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "msg")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy>_P
+                                 <GHC.Generics.K1
+                                    GHC.Generics.R GHC.Base.String>_R <GHC.Prim.Any>_N)
+                            (Trans
+                                 (GHC.Generics.N:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Base.String>_R <GHC.Prim.Any>_P)
+                                 (Sym (Lib.N:HelloMessage[0]))))))
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                           <Lib.HelloMessage>_R))) -}
+a90f446984d07003385a4d079d4be83f
+  $fFromJSONHelloMessage_$s$fSelectorMetaMetaSel ::
+    GHC.Generics.Selector
+      ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "msg")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Generics.Meta
+                  @ ('GHC.Generics.MetaSel
+                       ('GHC.Base.Just "msg")
+                       'GHC.Generics.NoSourceUnpackedness
+                       'GHC.Generics.NoSourceStrictness
+                       'GHC.Generics.DecidedLazy)
+                  Lib.$fFromJSONHelloMessage_$s$fSelectorMetaMetaSel_$cselName
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceUnpackedness
+                     @ ('GHC.Base.Just "msg")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Lib.$fFromJSONHelloMessage4
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceStrictness
+                     @ ('GHC.Base.Just "msg")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Lib.$fFromJSONHelloMessage4
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselDecidedStrictness
+                     @ ('GHC.Base.Just "msg")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Lib.$fFromJSONHelloMessage4
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
+b62afb2501bd7a9a7b0ce54983e9bc93
+  $fFromJSONHelloMessage_$s$fSelectorMetaMetaSel_$cselName ::
+    forall k (t :: GHC.Generics.Meta
+                   -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
+                                                                    -> GHC.Types.*) (a :: k).
+    t ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "msg")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy) f a
+    -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ k
+                   @ (t :: GHC.Generics.Meta
+                           -> (GHC.Types.* -> GHC.Types.*) -> k -> *)
+                   @ (f :: GHC.Types.* -> GHC.Types.*)
+                   @ (a :: k)
+                   (ds1 :: t ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "msg")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy) f a) ->
+                 Lib.$fFromJSONHelloMessage7) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fGenericHelloMessage :: GHC.Generics.Generic Lib.HelloMessage
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Lib.HelloMessage
+                  Lib.$fGenericHelloMessage_$cfrom
+                  Lib.$fGenericHelloMessage_$cto -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fGenericHelloMessage1 ::
+    GHC.Generics.Rep Lib.HelloMessage x
+    -> GHC.Generics.Rep Lib.HelloMessage x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x (ds :: GHC.Generics.Rep Lib.HelloMessage x) -> ds) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fGenericHelloMessage2 :: Lib.HelloMessage -> Lib.HelloMessage
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x (ds :: Lib.HelloMessage) -> ds) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fGenericHelloMessage_$cfrom ::
+    Lib.HelloMessage -> GHC.Generics.Rep Lib.HelloMessage x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$fGenericHelloMessage2
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Lib.HelloMessage>_R
+                 ->_R Trans
+                          (Lib.N:HelloMessage[0])
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                               (Trans
+                                    (Sym (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.S>_P
+                                              <'GHC.Generics.MetaSel
+                                                 ('GHC.Base.Just "msg")
+                                                 'GHC.Generics.NoSourceUnpackedness
+                                                 'GHC.Generics.NoSourceStrictness
+                                                 'GHC.Generics.DecidedLazy>_P
+                                              <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R))
+                                    (Trans
+                                         (Sym (GHC.Generics.N:M1[0]
+                                                   <GHC.Generics.C>_P
+                                                   <'GHC.Generics.MetaCons
+                                                      "HelloMessage"
+                                                      'GHC.Generics.PrefixI
+                                                      'GHC.Types.True>_P
+                                                   <GHC.Generics.M1
+                                                      GHC.Generics.S
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "msg")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.K1
+                                                         GHC.Generics.R GHC.Base.String)>_R))
+                                         (Trans
+                                              (Sym (GHC.Generics.N:M1[0]
+                                                        <GHC.Generics.D>_P
+                                                        <'GHC.Generics.MetaData
+                                                           "HelloMessage"
+                                                           "Lib"
+                                                           "echo-client-0.1.0.0-Be1Rh5C24NLJzDuDK7I273"
+                                                           'GHC.Types.True>_P
+                                                        <GHC.Generics.M1
+                                                           GHC.Generics.C
+                                                           ('GHC.Generics.MetaCons
+                                                              "HelloMessage"
+                                                              'GHC.Generics.PrefixI
+                                                              'GHC.Types.True)
+                                                           (GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "msg")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R
+                                                                 GHC.Base.String))>_R))
+                                              (Sub (Sym (Lib.Rep_HelloMessage[0]))))) <x>_N))) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fGenericHelloMessage_$cto ::
+    GHC.Generics.Rep Lib.HelloMessage x -> Lib.HelloMessage
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$fGenericHelloMessage1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <GHC.Generics.Rep Lib.HelloMessage x>_R
+                 ->_R Trans
+                          (Trans
+                               (Sub (Lib.Rep_HelloMessage[0]))
+                               (Trans
+                                    (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.D>_P
+                                         <'GHC.Generics.MetaData
+                                            "HelloMessage"
+                                            "Lib"
+                                            "echo-client-0.1.0.0-Be1Rh5C24NLJzDuDK7I273"
+                                            'GHC.Types.True>_P
+                                         <GHC.Generics.M1
+                                            GHC.Generics.C
+                                            ('GHC.Generics.MetaCons
+                                               "HelloMessage" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                            (GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "msg")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))>_R)
+                                    (Trans
+                                         (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.C>_P
+                                              <'GHC.Generics.MetaCons
+                                                 "HelloMessage"
+                                                 'GHC.Generics.PrefixI
+                                                 'GHC.Types.True>_P
+                                              <GHC.Generics.M1
+                                                 GHC.Generics.S
+                                                 ('GHC.Generics.MetaSel
+                                                    ('GHC.Base.Just "msg")
+                                                    'GHC.Generics.NoSourceUnpackedness
+                                                    'GHC.Generics.NoSourceStrictness
+                                                    'GHC.Generics.DecidedLazy)
+                                                 (GHC.Generics.K1
+                                                    GHC.Generics.R GHC.Base.String)>_R)
+                                         (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.S>_P
+                                              <'GHC.Generics.MetaSel
+                                                 ('GHC.Base.Just "msg")
+                                                 'GHC.Generics.NoSourceUnpackedness
+                                                 'GHC.Generics.NoSourceStrictness
+                                                 'GHC.Generics.DecidedLazy>_P
+                                              <GHC.Generics.K1
+                                                 GHC.Generics.R GHC.Base.String>_R))) <x>_N)
+                          (Trans
+                               (GHC.Generics.N:K1[0] <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P)
+                               (Sym (Lib.N:HelloMessage[0])))) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fShowHelloMessage :: GHC.Show.Show Lib.HelloMessage
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Lib.HelloMessage
+                  Lib.$fShowHelloMessage_$cshowsPrec
+                  Lib.$fShowHelloMessage_$cshow
+                  Lib.$fShowHelloMessage_$cshowList -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fShowHelloMessage1 :: Lib.HelloMessage -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Lib.HelloMessage) (w1 :: GHC.Base.String) ->
+                 Lib.$w$cshowsPrec 0# w w1) -}
+69e0995fb8408c7e9c89cf40c98d33b0
+  $fShowHelloMessage2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+e749787ef9f9ddf853978ae05f8af4df
+  $fShowHelloMessage3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "msg = "#) -}
+90313afe30744b1d5ef9e1c21d3aadd5
+  $fShowHelloMessage4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "HelloMessage {"#) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fShowHelloMessage_$cshow :: Lib.HelloMessage -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Lib.HelloMessage) ->
+                 Lib.$fShowHelloMessage_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fShowHelloMessage_$cshowList ::
+    [Lib.HelloMessage] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Lib.HelloMessage
+                   Lib.$fShowHelloMessage1) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $fShowHelloMessage_$cshowsPrec ::
+    GHC.Types.Int -> Lib.HelloMessage -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><L,1*U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Lib.HelloMessage)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Lib.$w$cshowsPrec ww1 w1 w2 }) -}
+19fe6dd72b259cd92c10cea96749b373
+  $s$fMimeUnrenderTYPEJSONa ::
+    Servant.API.ContentTypes.MimeUnrender
+      Servant.API.ContentTypes.JSON Lib.HelloMessage
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ Lib.HelloMessage
+                  (Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                     @ Lib.HelloMessage
+                     Lib.$fFromJSONHelloMessage_$cparseJSON
+                       `cast`
+                     (Sym (Data.Aeson.Types.Class.N:FromJSON[0] <Lib.HelloMessage>_N)))
+                  Lib.$s$fMimeUnrenderTYPEJSONa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender -}
+4e92e5102a2b98cb05b3ad9cde11dfc3
+  $s$fMimeUnrenderTYPEJSONa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.Either.Either GHC.Base.String Lib.HelloMessage
+  {- Arity: 2, Strictness: <L,A><S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 Servant.API.ContentTypes.eitherDecodeLenient
+                   @ Lib.HelloMessage
+                   Lib.$fFromJSONHelloMessage_$cparseJSON
+                     `cast`
+                   (Sym (Data.Aeson.Types.Class.N:FromJSON[0] <Lib.HelloMessage>_N))
+                   eta) -}
+d6c6a85b390050e671528a9140b7b082
+  $sclient3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackAppendCString#
+                   "/"#
+                   Lib.$sclient4) -}
+1ef0d63b708af42d8af1d55295b687ba
+  $sclient4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "echo"#) -}
+abf8251277023f65c3e081f47ef669e8
+  $tc'HelloMessage :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14802053983932447229##
+                   18317347973905320757##
+                   Lib.$trModule
+                   Lib.$tc'HelloMessage1) -}
+83b755db48aa7a615ddc151892ce2153
+  $tc'HelloMessage1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'HelloMessage"#) -}
+98a7c19ce9458a179a538d327b20643a
+  $tcHelloMessage :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10747266006374268298##
+                   4803675475469387892##
+                   Lib.$trModule
+                   Lib.$tcHelloMessage1) -}
+ec0a4fc2ec84534087d309417583ff23
+  $tcHelloMessage1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "HelloMessage"#) -}
+c3ce8c0c8db38a3f0c3b02b95c4c5352
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
+d73b2ce1634b26db1c4064586e30d3b4
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Lib"#) -}
+0b099e2bf7bc605d5d1e52576b63e8a1
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "echo-client-0.1.0.0-Be1Rh5C24NLJzDuDK7I273"#) -}
+a1f8ebb22762845657a2d6df27a1bc09
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Lib.HelloMessage -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (w :: Lib.HelloMessage)
+                   (w1 :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Lib.$fShowHelloMessage4
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Lib.$fShowHelloMessage3
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows8
+                             (GHC.Show.showLitString
+                                w `cast` (Lib.N:HelloMessage[0])
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows8
+                                   (GHC.Base.++ @ GHC.Types.Char Lib.$fShowHelloMessage2 x)))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w1
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 w1)) }) -}
+79b3773f8bb1f90ac8daabf2e7f95529
+  $w$dGFromJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1)
+  {- Arity: 1, Strictness: <L,1*U>, Inline: [0],
+     Unfolding: (\ @ a1 (w :: Data.Aeson.Types.Internal.Value) ->
+                 let {
+                   m :: Data.Aeson.Types.Internal.Parser [GHC.Types.Char]
+                   = case w of wild {
+                       DEFAULT
+                       -> Data.Aeson.Types.Class.typeMismatch
+                            @ [GHC.Types.Char]
+                            Lib.$fFromJSONHelloMessage3
+                            wild
+                       Data.Aeson.Types.Internal.String txt
+                       -> case txt of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                          let {
+                            a2 :: [GHC.Types.Char]
+                            = let {
+                                end :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                              } in
+                              letrec {
+                                $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                                  {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                                = \ (ww :: GHC.Prim.Int#) ->
+                                  case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.>=# ww end) of wild2 {
+                                    GHC.Types.False
+                                    -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                                       case GHC.Prim.tagToEnum#
+                                              @ GHC.Types.Bool
+                                              (GHC.Prim.geWord# r# 55296##) of wild3 {
+                                         GHC.Types.False
+                                         -> GHC.Types.:
+                                              @ GHC.Types.Char
+                                              (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                              ($wunfold (GHC.Prim.+# ww 1#))
+                                         GHC.Types.True
+                                         -> case GHC.Prim.tagToEnum#
+                                                   @ GHC.Types.Bool
+                                                   (GHC.Prim.leWord# r# 56319##) of wild4 {
+                                              GHC.Types.False
+                                              -> GHC.Types.:
+                                                   @ GHC.Types.Char
+                                                   (GHC.Types.C#
+                                                      (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                                   ($wunfold (GHC.Prim.+# ww 1#))
+                                              GHC.Types.True
+                                              -> case GHC.Prim.indexWord16Array#
+                                                        dt
+                                                        (GHC.Prim.+# ww 1#) of r#1 { DEFAULT ->
+                                                 GHC.Types.:
+                                                   @ GHC.Types.Char
+                                                   (GHC.Types.C#
+                                                      (GHC.Prim.chr#
+                                                         (GHC.Prim.+#
+                                                            (GHC.Prim.+#
+                                                               (GHC.Prim.uncheckedIShiftL#
+                                                                  (GHC.Prim.-#
+                                                                     (GHC.Prim.word2Int# r#)
+                                                                     55296#)
+                                                                  10#)
+                                                               (GHC.Prim.-#
+                                                                  (GHC.Prim.word2Int# r#1)
+                                                                  56320#))
+                                                            65536#)))
+                                                   ($wunfold (GHC.Prim.+# ww 2#)) } } } }
+                                    GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                              } in
+                              $wunfold dt1
+                          } in
+                          (\ @ (f1 :: * -> *)
+                             @ r
+                             (_path :: Data.Aeson.Types.Internal.JSONPath)
+                             (_kf :: Data.Aeson.Types.Internal.Failure f1 r)
+                             (ks :: Data.Aeson.Types.Internal.Success [GHC.Types.Char] f1 r) ->
+                           ks a2)
+                            `cast`
+                          (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                    <[GHC.Types.Char]>_R)) } }
+                 } in
+                 (\ @ (f1 :: * -> *)
+                    @ r
+                    (path :: Data.Aeson.Types.Internal.JSONPath)
+                    (kf :: Data.Aeson.Types.Internal.Failure f1 r)
+                    (ks :: Data.Aeson.Types.Internal.Success
+                             (GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1) f1 r) ->
+                  m `cast`
+                  (Data.Aeson.Types.Internal.N:Parser[0] <[GHC.Types.Char]>_R)
+                    @ f1
+                    @ r
+                    path
+                    kf
+                    (\ (a2 :: [GHC.Types.Char]) ->
+                     ks
+                       a2
+                         `cast`
+                       (Sym (GHC.Generics.N:K1[0]
+                                 <GHC.Generics.R>_P <[GHC.Types.Char]>_R <a1>_P))))
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                           <GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a1>_R))) -}
+a0a8217e26c4890f2ce9833b07eed496
+  $wouter ::
+    Data.Text.Array.MArray GHC.Prim.RealWorld
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+32c2c23a42e0e23f0e08e538d9737a1a
+  type API =
+    "echo"
+    Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                          "msg" GHC.Base.String
+                        Servant.API.Sub.:> Servant.API.Verbs.Get
+                                             '[Servant.API.ContentTypes.JSON] Lib.HelloMessage)
+a1f8ebb22762845657a2d6df27a1bc09
+  newtype HelloMessage = HelloMessage {msg :: GHC.Base.String}
+a1f8ebb22762845657a2d6df27a1bc09
+  axiom Rep_HelloMessage::
+      GHC.Generics.Rep Lib.HelloMessage
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "HelloMessage"
+               "Lib"
+               "echo-client-0.1.0.0-Be1Rh5C24NLJzDuDK7I273"
+               'GHC.Types.True)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "HelloMessage" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "msg")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 GHC.Base.String)))
+530f459e7c734c45d1c86af148e7180c
+  msg :: Lib.HelloMessage -> GHC.Base.String
+  RecSel Left Lib.HelloMessage
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.msg1
+                  `cast`
+                (<Lib.HelloMessage>_R ->_R Lib.N:HelloMessage[0]) -}
+41551dc4b515193d1c44e18cbecc5676
+  msg1 :: Lib.HelloMessage -> Lib.HelloMessage
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Lib.HelloMessage) -> ds) -}
+3bc2d977f426cf2d1112542edf7a2b7a
+  startApp :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+e008c154d3d1269ade20cef88764a47b
+  startApp1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Network.HTTP.Client.Manager.$wnewManager
+                        Network.HTTP.Client.Manager.defaultManagerSettings18
+                        Network.HTTP.Client.Manager.defaultManagerSettings15
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <GHC.Base.Maybe Network.Socket.Types.HostAddress
+                                   -> GHC.Base.String
+                                   -> GHC.Types.Int
+                                   -> GHC.Types.IO Network.HTTP.Client.Types.Connection>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings14
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <GHC.Base.Maybe Network.Socket.Types.HostAddress
+                                   -> GHC.Base.String
+                                   -> GHC.Types.Int
+                                   -> GHC.Types.IO Network.HTTP.Client.Types.Connection>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings11
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <Data.ByteString.Internal.ByteString
+                                   -> (Network.HTTP.Client.Types.Connection -> GHC.Types.IO ())
+                                   -> GHC.Base.String
+                                   -> GHC.Base.Maybe Network.Socket.Types.HostAddress
+                                   -> GHC.Base.String
+                                   -> GHC.Types.Int
+                                   -> GHC.Types.IO Network.HTTP.Client.Types.Connection>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings9
+                        Network.HTTP.Client.Manager.defaultManagerSettings8
+                        Network.HTTP.Client.Manager.defaultManagerSettings6
+                          `cast`
+                        (forall (a :: <*>_N).
+                         <GHC.Types.IO a>_R ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings5
+                        (GHC.Base.returnIO1 @ Network.HTTP.Client.Types.Request)
+                          `cast`
+                        (<Network.HTTP.Client.Types.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <Network.HTTP.Client.Types.Request>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings1
+                          `cast`
+                        (Trans
+                             (<GHC.Types.Bool>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Network.HTTP.Client.Types.Request
+                                             -> Network.HTTP.Client.Types.Request>_R))
+                             (Sym (Network.HTTP.Client.Types.N:ProxyOverride[0])))
+                        Network.HTTP.Client.Manager.defaultManagerSettings1
+                          `cast`
+                        (Trans
+                             (<GHC.Types.Bool>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Network.HTTP.Client.Types.Request
+                                             -> Network.HTTP.Client.Types.Request>_R))
+                             (Sym (Network.HTTP.Client.Types.N:ProxyOverride[0])))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ((Servant.Common.Req.performRequestCT
+                          @ Servant.API.ContentTypes.JSON
+                          @ Lib.HelloMessage
+                          Lib.$s$fMimeUnrenderTYPEJSONa
+                          (Data.Proxy.Proxy @ GHC.Types.* @ Servant.API.ContentTypes.JSON)
+                          Network.HTTP.Types.Method.methodGet
+                          Lib.startApp5)
+                         `cast`
+                       (Trans
+                            (Servant.Common.Req.N:ClientM[0] <([Network.HTTP.Types.Header.Header],
+                                                               Lib.HelloMessage)>_N)
+                            (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                 <*>_N
+                                 <Servant.Common.Req.ClientEnv>_R
+                                 <Control.Monad.Trans.Except.ExceptT
+                                    Servant.Common.Req.ServantError GHC.Types.IO>_R
+                                 <([Network.HTTP.Types.Header.Header], Lib.HelloMessage)>_N))
+                         (Servant.Common.Req.ClientEnv ipv1 Lib.startApp2))
+                        `cast`
+                      (Trans
+                           (Control.Monad.Trans.Except.N:ExceptT[0]
+                                <Servant.Common.Req.ServantError>_N
+                                <GHC.Types.IO>_R
+                                <([Network.HTTP.Types.Header.Header], Lib.HelloMessage)>_N)
+                           (GHC.Types.N:IO[0]
+                                <Data.Either.Either
+                                   Servant.Common.Req.ServantError
+                                   ([Network.HTTP.Types.Header.Header], Lib.HelloMessage)>_R))
+                        ipv of ds { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   Data.Either.Left x
+                   -> GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.CString.unpackAppendCString#
+                           "Error: "#
+                           (Servant.Common.Req.$w$cshowsPrec
+                              0#
+                              x
+                              (GHC.Types.[] @ GHC.Types.Char)))
+                        GHC.Types.True
+                        ipv2
+                   Data.Either.Right y
+                   -> GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (Lib.$w$cshowsPrec
+                           0#
+                           (Data.Tuple.snd
+                              @ [Network.HTTP.Types.Header.Header]
+                              @ Lib.HelloMessage
+                              y)
+                           (GHC.Types.[] @ GHC.Types.Char))
+                        GHC.Types.True
+                        ipv2 } } }) -}
+dafaef5d813e1f6f0f2b66c485769673
+  startApp10 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ Data.Text.Internal.Text
+                        Lib.startApp11 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+cc8f2641afbdeb5af66ff8212f7d6c60
+  startApp11 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        8#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Lib.$wouter
+                   (Data.Text.Array.MArray @ GHC.Prim.RealWorld ipv1)
+                   Lib.startApp13
+                   Lib.startApp12
+                   0#
+                   ipv }) -}
+d7d04a53bcc9f696e8d388909f47a8d0
+  startApp12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "test"#) -}
+3324dd4e6a415d6bc1b836b4b0dbe115
+  startApp13 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4#) -}
+5b50be273d2210b978c71c57f2b85b75
+  startApp14 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ Data.Text.Internal.Text
+                        Lib.startApp15 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+56cb33d045f7b9777d6025c0b1e4f9be
+  startApp15 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        8#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Servant.Client.$wouter2
+                   (Data.Text.Array.MArray @ GHC.Prim.RealWorld ipv1)
+                   Servant.Client.$fHasClientTYPE:>22
+                   Lib.$fFromJSONHelloMessage7
+                   0#
+                   ipv }) -}
+f7c13ed066696edcee9cbac66d9885aa
+  startApp16 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Base.++
+                   @ GHC.Types.Char
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Lib.$sclient3) -}
+c5c2610230c03276acdb3af6929d1a39
+  startApp2 :: Servant.Common.BaseUrl.BaseUrl
+  {- Unfolding: (Servant.Common.BaseUrl.BaseUrl
+                   Servant.Common.BaseUrl.Http
+                   Lib.startApp4
+                   Lib.startApp3
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+ad822192a1accd1a6336e05cda9a5876
+  startApp3 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 8080#) -}
+888aaae38e0803d3f2de54b4e47b40e9
+  startApp4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "localhost"#) -}
+3a6ecd626c83669cb84314b95355a442
+  startApp5 :: Servant.Common.Req.Req
+  {- Unfolding: (Servant.Common.Req.Req
+                   Lib.startApp16
+                   Lib.startApp6
+                   (GHC.Base.Nothing
+                      @ (Data.ByteString.Lazy.Internal.ByteString,
+                         Network.HTTP.Media.MediaType.Internal.MediaType))
+                   (GHC.Types.[] @ Network.HTTP.Media.MediaType.Internal.MediaType)
+                   (GHC.Types.[] @ (GHC.Base.String, Data.Text.Internal.Text))) -}
+9de2c8246ca45676066e20a0dcbcd2f7
+  startApp6 ::
+    [(Data.Text.Internal.Text, GHC.Base.Maybe Data.Text.Internal.Text)]
+  {- Unfolding: (GHC.Base.++
+                   @ (Data.Text.Internal.Text, GHC.Base.Maybe Data.Text.Internal.Text)
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text,
+                         GHC.Base.Maybe Data.Text.Internal.Text))
+                   Lib.startApp7) -}
+7dba3077b15e7b021441d15b38041134
+  startApp7 ::
+    [(Data.Text.Internal.Text, GHC.Base.Maybe Data.Text.Internal.Text)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, GHC.Base.Maybe Data.Text.Internal.Text)
+                   Lib.startApp8
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text,
+                         GHC.Base.Maybe Data.Text.Internal.Text))) -}
+101b4df660aea327401e2d0e3ce1ed3c
+  startApp8 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Unfolding: ((Lib.startApp14, Lib.startApp9)) -}
+7173f213f186cb916a8fe3d1770de394
+  startApp9 :: GHC.Base.Maybe Data.Text.Internal.Text
+  {- Unfolding: (GHC.Base.Just
+                   @ Data.Text.Internal.Text
+                   Lib.startApp10) -}
+instance Data.Aeson.Types.Class.FromJSON [Lib.HelloMessage]
+  = Lib.$fFromJSONHelloMessage
+instance GHC.Generics.Generic [Lib.HelloMessage]
+  = Lib.$fGenericHelloMessage
+instance GHC.Show.Show [Lib.HelloMessage] = Lib.$fShowHelloMessage
+family instance GHC.Generics.Rep [Lib.HelloMessage]
+  = Lib.Rep_HelloMessage
+"SPEC/Lib $fMimeUnrenderTYPEJSONa @ HelloMessage" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.Class.FromJSON
+                                                                                   Lib.HelloMessage)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa @ Lib.HelloMessage
+                                                   $dFromJSON
+  = Lib.$s$fMimeUnrenderTYPEJSONa
+"SPEC/Lib $fMimeUnrenderTYPEJSONa_$cmimeUnrender @ HelloMessage" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.Class.FromJSON
+                                                                                                  Lib.HelloMessage)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cmimeUnrender @ Lib.HelloMessage
+                                                                  $dFromJSON
+  = Lib.$s$fMimeUnrenderTYPEJSONa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender
+"SPEC/Lib $fSelectorMetaMetaSel @ ('Just
+                                    "msg") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                ('GHC.Base.Just
+                                                                                                                                                                                   "msg"))
+                                                                                                                                                                  ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                 'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                  ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                 'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                  ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                 'GHC.Generics.DecidedLazy)
+  GHC.Generics.$fSelectorMetaMetaSel @ ('GHC.Base.Just "msg")
+                                     @ 'GHC.Generics.NoSourceUnpackedness
+                                     @ 'GHC.Generics.NoSourceStrictness
+                                     @ 'GHC.Generics.DecidedLazy
+                                     $dSingI
+                                     $dSingI1
+                                     $dSingI2
+                                     $dSingI3
+  = Lib.$fFromJSONHelloMessage_$s$fSelectorMetaMetaSel
+"SPEC/Lib $fSelectorMetaMetaSel_$cselName @ ('Just
+                                              "msg") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                                    ('GHC.Base.Just
+                                                                                                                                                                                                       "msg"))
+                                                                                                                                                                                      ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                                     'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                                      ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                                     'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                                      ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                                     'GHC.Generics.DecidedLazy)
+  GHC.Generics.$fSelectorMetaMetaSel_$cselName @ ('GHC.Base.Just
+                                                    "msg")
+                                               @ 'GHC.Generics.NoSourceUnpackedness
+                                               @ 'GHC.Generics.NoSourceStrictness
+                                               @ 'GHC.Generics.DecidedLazy
+                                               $dSingI
+                                               $dSingI1
+                                               $dSingI2
+                                               $dSingI3
+  = Lib.$fFromJSONHelloMessage_$s$fSelectorMetaMetaSel_$cselName
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
